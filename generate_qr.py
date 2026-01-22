@@ -7,10 +7,11 @@ import qrcode
 # url = "https://qr-ml-project.onrender.com/scan"
 # url = "https://qr-ml-projectt.vercel.app/scan"
 # url = "https://qr-ml-projectt.vercel.app/scan"
-url = "https://qr_project.up.railway.app/scan"
+url = "qrproject-production-a587.up.railway.app/scan"
 
 img = qrcode.make(url)
 img.save("qr_code.png")
 
 print("QR Code Created")
+
 
